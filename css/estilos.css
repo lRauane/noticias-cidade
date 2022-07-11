@@ -72,18 +72,24 @@ body.fotos #navegacao a#fotos
 #primario{
     width: 270px;
     float: left;
-    background: blue;
     margin: 0 0 20px 195px;
 }
+#uma-coluna #primario{
+    width: 750px;
+    margin: 0 0 20px 0px;
+}
+
+#duas-colunas #primario{
+    width: 555px;
+}
+
 #secundario{
     width: 270px;
-    background: green;
     float: left;
     margin: 0 0 20px 15px;
 }
 #lateral{
     width: 180px;
-    background: yellow;
     margin: 0 0 20px -750px;
     float: left;
 }
@@ -92,6 +98,90 @@ body.fotos #navegacao a#fotos
     background: #294C71;
     padding: 20px;
 }
+
+/*CAIXAS*/
+.caixa{
+    margin: 10px 0;
+    padding: 5px;
+}
+.caixas-conteudo{
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+h2{
+    font-size: 1em;
+    background: #294C71;
+    color: #fff;
+    padding: 5px;
+}
+/*FORMATAR MENUS LATERAIS*/
+#lateral ul a{
+    font-size: 0.9em;
+    padding: 5px;
+    display: block;
+    line-height: 35px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+#lateral ul a:hover{
+    background: #f9f9f9 url(../img/marcador.png) no-repeat left center;
+    padding-left: 20px;
+    color: #a1a1a1;
+}
+
+/*FORMATANDO FORMULARIOS*/
+label{
+    display: block;
+    cursor: pointer;
+}
+input{
+    padding: 5px;
+    width: 135px;
+    margin: 5px;
+    font-size: 0.9em;
+    background-color: #fff;
+    
+}
+input.submit{
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
+    padding: 8px; border-radius: 10px;
+}
+input.submit:hover{
+    background-color: #7e0326;
+    cursor: pointer;
+}
+/*FORMATAÇAO IMG*/
+img.imagem-principal{
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
+
+/*FORMATANDO CABEÇALHOS*/
+h3{
+    text-transform: uppercase;
+    display: inline; font-size: 0.8em;
+    padding: 3px;
+}
+.destaque h3, 
+.entrevista h3{
+    background: #b10333;
+    color: #fff;
+}
+/*LISTA DE NOTICIAS*/
+#lista-noticias li{
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 65px;
+}
+#lista-noticias li{
+    
+}
+/*rodape*/
 #rodape{
     width: 750px;
     margin: 0 auto;
